@@ -1,0 +1,16 @@
+{
+  "name": "GraphLinq.ServerRelayOpenAI",
+  "version": "1.0.0",
+  "description": "Simple node server that accepts a post request and returns the response from OpenAI",
+  "main": "server.js",
+  "repository": "https://github.com/GraphLinq/GraphLinq.ServerRelayOpenAI",
+  "author": "GraphLinq",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  }
+}
