@@ -6,11 +6,15 @@ This server accepts a `POST` request to `/chat`, and uses the server's API Key a
 
 `git clone git@github.com:GraphLinq/GraphLinq.ServerRelayOpenAI.git`
 
-`yarn install`
+`yarn`
 
 ## Settings
 
-Edit `server.js` and set your API Key.
+Edit `server.js` and set your API Key `const configuration = new Configuration({apiKey: "",});`.
+
+## Optional
+
+Edit `server.js` and change `const port = 9021;` to the port you would like to use.
 
 ## Running
 
