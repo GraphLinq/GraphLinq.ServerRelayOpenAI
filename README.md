@@ -16,4 +16,4 @@ Edit `server.js` and set your API Key.
 
 `yarn start`
 
-![alt text](screenshot.png "Title")
+![Screenshot of Server running](screenshot.png "Server Running")
